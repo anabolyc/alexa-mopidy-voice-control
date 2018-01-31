@@ -31,12 +31,12 @@ To generate those sample reqests yourself just go to skill control panel - test 
 
 ## Links
 
-* [Amazon lambda functions root] (https://eu-west-1.console.aws.amazon.com/lambda/home?region=eu-west-1#/functions)
+* [Amazon lambda functions root](https://eu-west-1.console.aws.amazon.com/lambda/home?region=eu-west-1#/functions)
 * [YouTube tutorial](https://www.youtube.com/watch?time_continue=39&v=zt9WdE5kR6g)
-* [Alexa SDK Source and Reference] (https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
-* [Azure IoT Hub API Reference] (https://docs.microsoft.com/en-us/javascript/api/azure-iothub/registry?view=azure-iot-typescript-latest)
-* [Azure IoT Hub service docs] (https://github.com/Azure/azure-iot-sdk-node/tree/master/service)
-* [Azure IoT Hub service invocation example and docs] (https://github.com/Azure/azure-iot-sdk-node/blob/master/service/samples/device_method.js)
-* [Azure IoT Hub device docs] (https://github.com/Azure/azure-iot-sdk-node/tree/master/device)
-* [Azure IoT Hub device subscribe example and docs] (https://github.com/Azure/azure-iot-sdk-node/blob/master/device/samples/device_methods.js)
+* [Alexa SDK Source and Reference](https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs)
+* [Azure IoT Hub API Reference](https://docs.microsoft.com/en-us/javascript/api/azure-iothub/registry?view=azure-iot-typescript-latest)
+* [Azure IoT Hub service docs](https://github.com/Azure/azure-iot-sdk-node/tree/master/service)
+* [Azure IoT Hub service invocation example and docs](https://github.com/Azure/azure-iot-sdk-node/blob/master/service/samples/device_method.js)
+* [Azure IoT Hub device docs](https://github.com/Azure/azure-iot-sdk-node/tree/master/device)
+* [Azure IoT Hub device subscribe example and docs](https://github.com/Azure/azure-iot-sdk-node/blob/master/device/samples/device_methods.js)
 
