@@ -1,0 +1,22 @@
+play play
+pause pause
+resume resume
+stop stop
+stop off
+volumeOff volume off
+volumeOff silent
+volumeDefault volume default
+volumeDefault default volume
+volumeSet set volume {volumeValue}
+volumeIncrease increase volume by {by}
+volumeIncrease add {by} to volume
+volumeDecrease decrease volume by {by}
+volumeDecrease reduce volume by {by}
+radioPlay play radio number {index}
+radioPlay play radio station number {index}
+radioPlay play radio station {index}
+radioPlay play radio {index}
+trackPlay play track number {index}
+trackPlay play track {index}
+trackPlay play favourites track number {index}
+trackPlay play favourites track {index}

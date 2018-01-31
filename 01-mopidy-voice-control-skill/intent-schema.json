@@ -1,0 +1,67 @@
+{
+  "intents": [
+    {
+      "intent": "play"
+    },
+    {
+      "intent": "pause"
+    },
+    {
+      "intent": "resume"
+    },
+    {
+      "intent": "stop"
+    },
+    {
+      "intent": "volumeOff"
+    },
+    {
+      "intent": "volumeDefault"
+    },
+    {
+      "slots": [
+        {
+          "name": "volumeValue",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "volumeSet"
+    },
+    {
+      "slots": [
+        {
+          "name": "by",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "volumeIncrease"
+    },
+    {
+      "slots": [
+        {
+          "name": "by",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "volumeDecrease"
+    },
+    {
+      "slots": [
+        {
+          "name": "index",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "radioPlay"
+    },
+    {
+      "slots": [
+        {
+          "name": "index",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "trackPlay"
+    }
+  ]
+}

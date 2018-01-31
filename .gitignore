@@ -1,0 +1,9 @@
+*.zip
+
+01-mopidy-voice-control-skill/config.js
+01-mopidy-voice-control-skill/node_modules
+01-mopidy-voice-control-skill/example-requests/placeholders
+
+02-mopidy-device-control/config.js
+02-mopidy-device-control/node_modules
+

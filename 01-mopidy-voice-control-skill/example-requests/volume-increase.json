@@ -1,0 +1,45 @@
+{
+    "session": {
+      "new": true,
+      "sessionId": "SessionId.44dbc13f-912e-4c36-89f7-356b76176ad8",
+      "application": {
+        "applicationId": "amzn1.ask.skill.[your-skill-id]"
+      },
+      "attributes": {},
+      "user": {
+        "userId": "amzn1.ask.account.[your-account-id-here]"
+      }
+    },
+    "request": {
+      "type": "IntentRequest",
+      "requestId": "EdwRequestId.cc054e23-3123-4383-8e6e-7cb369129a9c",
+      "intent": {
+        "name": "volumeIncrease",
+        "slots": {
+          "by": {
+            "name": "by",
+            "value": "3"
+          }
+        }
+      },
+      "locale": "en-US",
+      "timestamp": "2018-01-30T20:03:13Z"
+    },
+    "context": {
+      "AudioPlayer": {
+        "playerActivity": "IDLE"
+      },
+      "System": {
+        "application": {
+          "applicationId": "amzn1.ask.skill.[your-skill-id]"
+        },
+        "user": {
+          "userId": "amzn1.ask.account.[your-account-id-here]"
+        },
+        "device": {
+          "supportedInterfaces": {}
+        }
+      }
+    },
+    "version": "1.0"
+  }

@@ -1,0 +1,45 @@
+{
+    "session": {
+      "new": true,
+      "sessionId": "SessionId.73323915-c3c7-4386-b778-63abf3b11edf",
+      "application": {
+        "applicationId": "amzn1.ask.skill.[your-skill-id]"
+      },
+      "attributes": {},
+      "user": {
+        "userId": "amzn1.ask.account.[your-account-id-here]"
+      }
+    },
+    "request": {
+      "type": "IntentRequest",
+      "requestId": "EdwRequestId.bdd418df-ba4a-43c3-96ec-f5a1535cdf98",
+      "intent": {
+        "name": "volumeSet",
+        "slots": {
+          "volumeValue": {
+            "name": "volumeValue",
+            "value": "5"
+          }
+        }
+      },
+      "locale": "en-US",
+      "timestamp": "2018-01-29T21:27:34Z"
+    },
+    "context": {
+      "AudioPlayer": {
+        "playerActivity": "IDLE"
+      },
+      "System": {
+        "application": {
+          "applicationId": "amzn1.ask.skill.[your-skill-id]"
+        },
+        "user": {
+          "userId": "amzn1.ask.account.[your-account-id-here]"
+        },
+        "device": {
+          "supportedInterfaces": {}
+        }
+      }
+    },
+    "version": "1.0"
+  }

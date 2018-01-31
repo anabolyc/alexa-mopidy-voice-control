@@ -1,0 +1,10 @@
+{
+    "name": "alexa-skill-mopidy-voice-control",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+      "alexa-sdk": "^1.0.10",
+      "azure-iothub": "^1.2.3" 
+    }
+  }
+  
