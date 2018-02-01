@@ -4,6 +4,7 @@
 01-mopidy-voice-control-skill/node_modules
 01-mopidy-voice-control-skill/example-requests/placeholders
 
-02-mopidy-device-control/config.js
-02-mopidy-device-control/node_modules
+02-mopidy-device-control/www/config.js
+02-mopidy-device-control/www/node_modules
+02-mopidy-device-control/d_run.sh
 

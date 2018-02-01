@@ -1,1 +1,1 @@
-Dockerfile.x86_64
+Dockerfile.armhf
