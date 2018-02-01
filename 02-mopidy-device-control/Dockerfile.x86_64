@@ -1,0 +1,19 @@
+FROM node:4.8-slim
+
+# start script
+COPY 02-mopidy-device-control/start.sh /usr/sbin/start.sh
+
+RUN mkdir -p /www
+COPY 02-mopidy-device-control/www/package.json /www/
+WORKDIR /www
+RUN npm install
+
+# service data 
+COPY 02-mopidy-device-control/www/answers.js 02-mopidy-device-control/www/index.js 02-mopidy-device-control/www/mopidy.js 02-mopidy-device-control/www/intent-schema.json /www/
+COPY 02-mopidy-device-control/www/config-example.js /www/config.js
+
+ENV MOPIDY_HOST 192.168.1.60
+ENV MOPIDY_PORT 6680
+ENV IOT_CONN_STRING ___
+
+ENTRYPOINT ["start.sh"]
