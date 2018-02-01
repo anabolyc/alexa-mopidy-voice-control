@@ -21,9 +21,9 @@ I decided to host service as amazon lambda function.
 
 ## Setup 
 
-1. Go to [Amazon Dev Console/ Alexa] (https://developer.amazon.com/edw/home.html#/skills) and create skill using step by step routine
+1. Go to [Amazon Dev Console/ Alexa](https://developer.amazon.com/edw/home.html#/skills) and create skill using step by step routine
 2. Use schema and sample utterances from this folder 
-3. Enable skill at [your profile page] (https://alexa.amazon.com/spa/index.html#skills/your-skills/?ref-suffix=ysa_gw)
+3. Enable skill at [your profile page](https://alexa.amazon.com/spa/index.html#skills/your-skills/?ref-suffix=ysa_gw)
 
 
 
