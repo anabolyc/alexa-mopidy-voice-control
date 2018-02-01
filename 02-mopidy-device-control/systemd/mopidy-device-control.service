@@ -1,0 +1,19 @@
+[Unit]
+Description=dockerized mopidy-device-control
+Requires=docker.service
+After=docker.service
+
+[Service]
+ExecStartPre=-/usr/bin/docker rm -f mopidy-device-control-instance
+ExecStartPre=-/usr/bin/docker pull andreymalyshenko/mopidy-device-control:armv7l
+ExecStart=/usr/bin/docker run --name mopidy-device-control-instance --env MOPIDY_HOST=192.168.1.60 --env MOPIDY_PORT=6680 --env IOT_CONN_STRING='your-device-connection-string-here-vs-DeviceId-property-set' andreymalyshenko/mopidy-device-control:armv7l 
+ExecStartPost=/bin/sh -c 'while ! docker ps | grep mopidy-device-control-instance ; do sleep 1; done'
+ExecStop=/usr/bin/docker rm -f mopidy-device-control-instance
+TimeoutSec=0
+RemainAfterExit=no
+Restart=Always
+
+[Install]
+WantedBy=multi-user.target
+
+
