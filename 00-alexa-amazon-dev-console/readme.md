@@ -15,11 +15,9 @@ In my case i want to handle following mesages
 
 I decided to host service as amazon lambda function. 
 
+* It is very well covered in tutorials and sort of default choice
 * For my volumes it is free
-* It is very well covered in tutorials
-* Why not
-
-please go to ../01-mopidy-voice-control-skill for more
+* Prcatical experience using Amazon lambda functions
 
 ## Setup 
 
@@ -27,8 +25,19 @@ please go to ../01-mopidy-voice-control-skill for more
 2. Use schema and sample utterances from this folder 
 3. Enable skill at [your profile page] (https://alexa.amazon.com/spa/index.html#skills/your-skills/?ref-suffix=ysa_gw)
 
+
+
 ## Links
 
 * [Amazon dev Console - starting point](https://developer.amazon.com/edw/home.html#/skills)
 * [Amazon Skill Model docs](https://developer.amazon.com/docs/custom-skills/define-the-interaction-model-in-json-and-text.html)
 * [YouTube tutorial](https://www.youtube.com/watch?time_continue=39&v=zt9WdE5kR6g)
+
+
+please go to [next layer](../01-mopidy-voice-control-skill) for more
+
+## Screenshots
+
+![Dev console root](https://raw.githubusercontent.com/anabolyc/alexa-mopidy-voice-control/master/screenshots/01-alexa-dev-console.png)
+![Skill information](https://raw.githubusercontent.com/anabolyc/alexa-mopidy-voice-control/master/screenshots/02-alexa-skill-def.png)
+![Skill configuration](https://raw.githubusercontent.com/anabolyc/alexa-mopidy-voice-control/master/screenshots/03-alexa-skill-def.png)
