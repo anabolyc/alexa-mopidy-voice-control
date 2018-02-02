@@ -15,14 +15,19 @@ Two dockerfiles available: x86-64 and armhf, both tested on debian/ubuntu
 1. Create service file in /etc/systemd/system from [mopidy-device-control.service](systemd/mopidy-device-control.service) file (just copy content)
 1. Adjust environment variables, change image architecture to x86_64 if you need to
 1. Execute in terminal
-` sudo systemctl daemon-reload`
-` sudo systemctl start mopidy-device-control.service`
+```
+ sudo systemctl daemon-reload
+ sudo systemctl start mopidy-device-control.service
+```
 this will take some time, since image should be pulled first
-
-` sudo systemctl enable mopidy-device-control.service`
+```            
+ sudo systemctl enable mopidy-device-control.service
+```
 to start service by default
 
 ### Nodejs
+
+OR you can run this from node directly
 
 From [www](www) folder
 1. Create config file, config-example.js should be your starting point. 

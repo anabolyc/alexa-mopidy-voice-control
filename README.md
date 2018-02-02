@@ -21,12 +21,14 @@ Remotely control [Mopidy](https://www.mopidy.com/) media service using Amazon Al
     * After skill definition is done you can enable it for your account
 1. [Service part](01-mopidy-voice-control-skill)
     * Should receive json requests from Alexa, already recognized and parsed, simlified just something like 
+    ```
     {
         "intent": "SetVolume",
         "slot": {
             "value": 10
         }
-    }    
+    }  
+    ```  
     * Should do something with it and reply to Alexa with specific text that she should reply to user
     * In my case put requst into IoT hub, where it can be captured by next layer of app
     * Receive speach reply from service or notify user if device didn't reply within timeout
@@ -35,7 +37,7 @@ Remotely control [Mopidy](https://www.mopidy.com/) media service using Amazon Al
     * Upon receiving call appropriate JSON RPC service (or do chain of calls)
     * Reply back to sender positive or negative response
 
-    
+
 
 
 
