@@ -37,6 +37,8 @@ Remotely control [Mopidy](https://www.mopidy.com/) media service using Amazon Al
     * Upon receiving call appropriate JSON RPC service (or do chain of calls)
     * Reply back to sender positive or negative response
 
+More details within readme files of each section
+
 
 
 

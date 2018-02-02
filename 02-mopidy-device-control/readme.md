@@ -32,8 +32,10 @@ OR you can run this from node directly
 From [www](www) folder
 1. Create config file, config-example.js should be your starting point. 
 1. Start service by running
-` npm install`
-` npm start`
+```
+ npm install
+ npm start
+```
 
 ## Links
 
