@@ -17,7 +17,7 @@ I decided to host service as amazon lambda function.
 
 * It is very well covered in tutorials and sort of default choice
 * For my volumes it is free
-* Prcatical experience using Amazon lambda functions
+* Practical experience using Amazon lambda functions
 
 ## Setup 
 
